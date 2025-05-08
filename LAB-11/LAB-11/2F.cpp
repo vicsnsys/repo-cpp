@@ -6,7 +6,7 @@ int main() {
 	char conceito;
 	char nome[20] = {};
 	
-	/*	std::string nome;
+/*	std::string nome;
 
 	std::cout << "Qual eh o nome?: ";
 	std::getline(std::cin, nome);
