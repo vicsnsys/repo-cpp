@@ -18,12 +18,18 @@ int main() {
 
 	std::cin >> dicionario[2];
 
-	std::cout << "[1] Palavra do Dicionario: " << std::endl;
+/*  std::cout << "[1] Palavra do Dicionario: " << std::endl;
 	std::cout << dicionario[0];
 	std::cout << "[2] Palavra do Dicionario: " << std::endl;
 	std::cout << dicionario[1];
 	std::cout << "[3] Palavra do Dicionario: " << std::endl;
 	std::cout << dicionario[2];
+	*/
+
+	unsigned int pos = 0;
+	std::cout << "Digite a posicao da palavra que voce quer ver: ";
+	std::cin >> pos;
+	std::cout << dicionario[pos];
 
 	return 0;
 }
@@ -45,3 +51,6 @@ std::ostream& operator<<(std::ostream& os, palavra& temp) {
 	return os;
 }
 
+void show(palavra temp) {
+
+}
