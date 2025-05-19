@@ -7,7 +7,7 @@ struct peixe {
 	int comprimento = 0;
 };
 
-std::ostream& operator<<(std::ostream& os, peixe temp);
+std::ostream& operator<<(std::ostream& os, peixe& temp);
 
 int main() {
 
@@ -23,7 +23,7 @@ int main() {
 	return 0;
 }
 
-std::ostream& operator<<(std::ostream& os, peixe temp) {
+std::ostream& operator<<(std::ostream& os, peixe& temp) {
 	os << temp.tipo << "\n";
 	os << temp.peso << "\n";
 	os << temp.comprimento<< "\n";
