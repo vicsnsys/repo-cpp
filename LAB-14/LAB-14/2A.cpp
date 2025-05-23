@@ -19,7 +19,7 @@ int main() {
 
 	std::cout << "Seu relogio esta atrasado, o horario correto eh ";
 	ptr->horas += 1;
-	showTime(&h);
+	showTime(ptr);
 
 	return 0;
 }
